@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wIf-jO-zdZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wIf-jO-zdZ">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -39,7 +39,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <sections>
-                            <tableViewSection headerTitle="Место" id="09T-Y4-H5Z">
+                            <tableViewSection headerTitle="Location" id="09T-Y4-H5Z">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="34" id="xh4-gv-fhg">
                                         <rect key="frame" x="0.0" y="49" width="390" height="34"/>
@@ -64,7 +64,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Дата и время" id="0SZ-Wm-JJE">
+                            <tableViewSection headerTitle="Date and time" id="0SZ-Wm-JJE">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="34" id="10Y-QN-6Ko">
                                         <rect key="frame" x="0.0" y="132.66666603088379" width="390" height="34"/>
@@ -89,7 +89,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Продолжительность игры" id="sdy-7R-SaQ">
+                            <tableViewSection headerTitle="Game length" id="sdy-7R-SaQ">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="34" id="eCF-uY-bze">
                                         <rect key="frame" x="0.0" y="216.33333206176758" width="390" height="34"/>
@@ -114,7 +114,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Тип поля и покрытие" id="QQb-6X-8me">
+                            <tableViewSection headerTitle="Field type" id="QQb-6X-8me">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="34" id="kEa-hz-5Kn">
                                         <rect key="frame" x="0.0" y="299.99999809265137" width="390" height="34"/>
@@ -139,7 +139,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Количество игроков сейчас / всего" id="uPK-E9-F3j">
+                            <tableViewSection headerTitle="Number of players exist/all" id="uPK-E9-F3j">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="34" id="UwW-rd-uty">
                                         <rect key="frame" x="0.0" y="383.66666412353516" width="390" height="34"/>
@@ -164,7 +164,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Стоимость" id="Mjm-t3-peZ">
+                            <tableViewSection headerTitle="Price per player" id="Mjm-t3-peZ">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="34" id="LNR-gQ-dFK">
                                         <rect key="frame" x="0.0" y="467.33333015441895" width="390" height="34"/>
@@ -189,7 +189,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Описание" id="ISe-hy-lfe">
+                            <tableViewSection headerTitle="Description" id="ISe-hy-lfe">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="34" id="r4q-GG-Tu4">
                                         <rect key="frame" x="0.0" y="550.99999618530273" width="390" height="34"/>
@@ -221,8 +221,8 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="x7h-Qa-juv">
-                        <barButtonItem key="leftBarButtonItem" title="Отменить" id="YAm-XC-6iQ"/>
-                        <barButtonItem key="rightBarButtonItem" title="Сохранить" style="done" id="wJJ-QJ-xkN"/>
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="YAm-XC-6iQ"/>
+                        <barButtonItem key="rightBarButtonItem" title="Create" style="done" id="wJJ-QJ-xkN"/>
                     </navigationItem>
                     <connections>
                         <outlet property="locationTextField" destination="JXJ-OH-1af" id="33h-jU-dcD"/>
@@ -233,7 +233,7 @@
             </objects>
             <point key="canvasLocation" x="1933.8461538461538" y="-1261.1374407582937"/>
         </scene>
-        <!--Матчи-->
+        <!--Games-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="GamesViewController" customModule="Footballchick" customModuleProvider="target" sceneMemberID="viewController">
@@ -244,7 +244,7 @@
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vpz-h4-kBh">
                                 <rect key="frame" x="0.0" y="44" width="390" height="96"/>
                                 <items>
-                                    <navigationItem title="Матчи" id="FnE-vU-nnJ">
+                                    <navigationItem title="Games" id="FnE-vU-nnJ">
                                         <barButtonItem key="leftBarButtonItem" title="Город" image="location" catalog="system" id="O1K-dq-jPu"/>
                                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="lkP-Am-2hZ">
                                             <connections>
@@ -254,16 +254,69 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="rrR-CO-CZD">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="rrR-CO-CZD">
                                 <rect key="frame" x="0.0" y="170" width="390" height="591"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="gameCell" id="1bj-Gl-RJl" customClass="GamesCell" customModule="Footballchick" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="49" width="350" height="43.666667938232422"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="gameCell" rowHeight="70" id="1bj-Gl-RJl" customClass="GameCell" customModule="Footballchick" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1bj-Gl-RJl" id="Kzr-Ri-Adp">
-                                            <rect key="frame" x="0.0" y="0.0" width="350" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="70"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lbs-aR-Jky">
+                                                    <rect key="frame" x="16" y="8" width="358" height="54"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mg8-bW-XBT">
+                                                            <rect key="frame" x="0.0" y="0.0" width="298.66666666666669" height="54"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhe-23-Tdt">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="298.66666666666669" height="27"/>
+                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cCd-ZW-2cm">
+                                                                    <rect key="frame" x="0.0" y="27" width="298.66666666666669" height="27"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aSl-ye-EDy">
+                                                            <rect key="frame" x="308.66666666666669" y="0.0" width="49.333333333333314" height="54"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="251" text="20:45" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vwa-F2-bPN">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="49.333333333333336" height="27"/>
+                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="251" text="7/10" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTA-vi-Gm9">
+                                                                    <rect key="frame" x="0.0" y="27" width="49.333333333333336" height="27"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="lbs-aR-Jky" secondAttribute="trailing" constant="16" id="GUQ-Mg-3I4"/>
+                                                <constraint firstItem="lbs-aR-Jky" firstAttribute="top" secondItem="Kzr-Ri-Adp" secondAttribute="top" constant="8" id="Wf0-Ju-VXg"/>
+                                                <constraint firstAttribute="bottom" secondItem="lbs-aR-Jky" secondAttribute="bottom" constant="8" id="glI-ES-0NP"/>
+                                                <constraint firstItem="lbs-aR-Jky" firstAttribute="leading" secondItem="Kzr-Ri-Adp" secondAttribute="leading" constant="16" id="rJd-cb-HZS"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="locationLabel" destination="Xhe-23-Tdt" id="tIc-JK-vMi"/>
+                                            <outlet property="playersLabel" destination="gTA-vi-Gm9" id="7Ca-rO-fMd"/>
+                                            <outlet property="timeLabel" destination="Vwa-F2-bPN" id="Oax-wj-ezA"/>
+                                            <outlet property="typeLabel" destination="cCd-ZW-2cm" id="vCP-FX-gtC"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -284,7 +337,7 @@
                             <constraint firstItem="Vpz-h4-kBh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hbE-sH-oOF"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Матчи" image="play" catalog="system" id="QR9-jg-DpY"/>
+                    <tabBarItem key="tabBarItem" title="Games" image="play" catalog="system" id="QR9-jg-DpY"/>
                     <connections>
                         <outlet property="tableView" destination="rrR-CO-CZD" id="GeQ-Jh-gvf"/>
                     </connections>
@@ -293,7 +346,7 @@
             </objects>
             <point key="canvasLocation" x="1004.6153846153845" y="-527.48815165876772"/>
         </scene>
-        <!--Профиль-->
+        <!--Profile-->
         <scene sceneID="fVt-BS-MXh">
             <objects>
                 <viewController id="nYR-UZ-ES7" customClass="ProfileViewController" customModule="Footballchick" customModuleProvider="target" sceneMemberID="viewController">
@@ -304,7 +357,7 @@
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sMy-zC-jXT">
                                 <rect key="frame" x="0.0" y="44" width="390" height="96"/>
                                 <items>
-                                    <navigationItem title="Профиль" id="Kx3-rT-bGm"/>
+                                    <navigationItem title="Profile" id="Kx3-rT-bGm"/>
                                 </items>
                             </navigationBar>
                         </subviews>
@@ -316,13 +369,13 @@
                             <constraint firstItem="sMy-zC-jXT" firstAttribute="centerX" secondItem="t26-3V-wWH" secondAttribute="centerX" id="ufP-yt-zgo"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Профиль" image="person" catalog="system" id="bju-ua-TRr"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" id="bju-ua-TRr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="45q-LI-CB4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1872" y="-527"/>
         </scene>
-        <!--Настройки-->
+        <!--Settings-->
         <scene sceneID="COh-Kw-Imy">
             <objects>
                 <viewController id="uby-fr-O0N" customClass="SettingsViewController" customModule="Footballchick" customModuleProvider="target" sceneMemberID="viewController">
@@ -333,7 +386,7 @@
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kc0-Ei-p0H">
                                 <rect key="frame" x="0.0" y="44" width="390" height="96"/>
                                 <items>
-                                    <navigationItem title="Настройки" id="fdf-o1-emc"/>
+                                    <navigationItem title="Settings" id="fdf-o1-emc"/>
                                 </items>
                             </navigationBar>
                         </subviews>
@@ -345,7 +398,7 @@
                             <constraint firstItem="Kc0-Ei-p0H" firstAttribute="centerX" secondItem="Mar-Vr-G0q" secondAttribute="centerX" id="UVa-Ca-TrF"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Настройки" image="gearshape" catalog="system" id="2mo-Hp-sPX"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gearshape" catalog="system" id="2mo-Hp-sPX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QnC-ww-2EN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
